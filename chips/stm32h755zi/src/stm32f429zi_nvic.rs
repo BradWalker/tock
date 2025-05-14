@@ -1,0 +1,13 @@
+// Licensed under the Apache License, Version 2.0 or the MIT License.
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+// Copyright Tock Contributors 2022.
+
+//! Named constants for NVIC ids specific to this chip
+
+pub const CRYP: u32 = 79;
+pub const HASH_RNG: u32 = 80;
+pub const UART7: u32 = 82;
+pub const UART8: u32 = 83;
+pub const SPI5: u32 = 85;
+pub const SPI6: u32 = 86;
+pub const DMA2D: u32 = 90;
